@@ -1,0 +1,284 @@
+.topnav{
+    float:left;
+}
+
+
+.topnav ul{
+    list-style-type: none;
+   
+}
+
+.topnav li{
+    display:inline-block;
+    padding: 25px;
+}
+
+.topnav-side{
+    display: block;
+    float: right;
+    margin-top: 30px;
+    margin-right: 150px;
+}
+
+.logo{
+    font-size: 2em;
+}
+.bottom-nav{
+    padding-left: 50px;
+    clear:both;
+}
+
+.bottom-nav p{
+    font-size: 1.5em;
+    font-family: "Anton", sans-serif;
+    float: left;
+    padding-right: 80px;
+}
+
+
+.menu li{
+    list-style-type: none;
+    display:inline-block;
+    padding: 8px;
+    padding-top: 50px;
+}
+
+.enquire-button {
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+   
+}
+
+.main{
+    clear: both;
+    width:50%;
+    display: block;
+    margin: auto;
+    padding-top: 50px;
+}
+
+.main p{
+    float: left;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.25em;
+}
+
+.main img{
+    float:right;
+}
+
+.menu ul li {
+    position: relative;
+    display: inline-block;
+}
+
+.menu ul li ul.dropdown {
+    display: none;
+    position: absolute;
+    width: 140px;
+    background-color: lightgray; 
+    padding: 0; 
+    margin: 0; 
+    border: 1px solid black;
+}
+
+.menu ul li:hover ul.dropdown {
+    display: block;
+}
+
+.menu ul li ul.dropdown li {
+    display: block;
+    padding: 0; 
+    margin: 0;
+}
+
+.menu ul li ul.dropdown li a {
+    font-size: 15px;
+    color: #333; 
+    text-decoration: none;
+    display: block; 
+    padding: 10px; 
+    transition: color 0.3s; 
+}
+
+.menu ul li ul.dropdown li a:hover {
+    color: #fff; 
+    background-color: black; 
+}
+
+.content{
+    clear:both;
+    padding-top: 50px;
+    padding-left: 100px;
+}
+
+ul.arrow-list {
+    list-style-type: none; 
+    padding-left: 0; 
+}
+
+ul.arrow-list li {
+    padding-left: 25px; 
+    position: relative;
+    line-height: 1.6; 
+}
+
+ul.arrow-list li:before {
+    content: "►"; 
+    position: absolute;
+    left: 0;
+    color: lightblue; 
+}
+
+.brands{
+    padding-top: 50px;
+    padding-left: 100px;
+}
+
+.brands ul {
+    list-style-type: none;
+    padding: 0;
+    width:600px;
+    font-size: 20px;
+    font-family:'Acme', cursive;
+}
+
+.brands ul li {
+    padding: 10px;
+    background-color: lightblue;
+    border-bottom: 1px solid #ccc;
+    transition: background-color 0.3s, color 0.3s;
+    
+}
+
+.brands ul li:hover {
+    background-color: lightgrey;
+    color: white;
+}
+
+.brands{
+    float:left;
+}
+
+.category{
+    float:right;
+    padding-right:100px;
+    padding-top: 40px;
+    font-size:20px;
+}
+
+table td{
+    border: 0.5px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    transition: background-color 0.3s; 
+}
+
+td:nth-child(1):hover {
+    background-color: lightblue;
+}
+
+td:nth-child(2):hover {
+    background-color: lightcoral;
+}
+
+td:nth-child(3):hover {
+    background-color: lightgreen;
+}
+
+td:nth-child(4):hover {
+    background-color: lightsalmon;
+}
+
+td:nth-child(5):hover {
+    background-color: lightskyblue;
+}
+
+td:nth-child(6):hover {
+    background-color: lightseagreen;
+}
+
+.search{
+    margin-top: 50px;
+    clear:both;
+    padding:50px;
+    width: 100%; 
+    max-width: 800px; 
+    margin: 0 auto; 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+    text-align: center;
+}
+
+.search a{
+    text-decoration: none;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+}
+
+.links li{
+    list-style-type: none;
+}
+
+.footer {
+    margin: 50px;
+    display: flex; 
+    justify-content: space-around; 
+    background-color: #f9f9f9; 
+    padding: 20px; 
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.footer > div {
+    flex: 1; 
+    text-align: center;
+    padding: 10px; 
+}
+
+.email, .contact, .links {
+    margin: 0 10px; 
+}
+
+.contact p {
+    margin: 0; 
+}
+
+.links ul {
+    list-style: none; 
+    padding: 0; 
+}
+
+.links ul li {
+    margin-bottom: 5px; 
+}
+
+.email {
+    margin-right: 10px;
+}
+
+.email input[type="text"] {
+    width: 200px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.email input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
